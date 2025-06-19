@@ -6,24 +6,24 @@ import java.util.stream.Collectors;
 public class CodeTest {
     public static void main(String[] args) {
         List<Object> vendor1 = new ArrayList<>();
-        vendor1.add("product1");
-        vendor1.add("vendor1");
-        vendor1.add(5000);
+        vendor1.add("Samsung Galaxy S23");
+        vendor1.add("Samsung");
+        vendor1.add(56000);
 
         List<Object> vendor2 = new ArrayList<>();
-        vendor2.add("product2");
-        vendor2.add("vendor2");
-        vendor2.add(2000);
+        vendor2.add("Motorollo");
+        vendor2.add("Motorolo");
+        vendor2.add(23000);
 
         List<Object> vendor3 = new ArrayList<>();
-        vendor3.add("product3");
-        vendor3.add("vendor3");
-        vendor3.add(2600);
+        vendor3.add("Iphone 16 promax");
+        vendor3.add("Iphone");
+        vendor3.add(42000);
 
         List<Object> vendor4 = new ArrayList<>();
-        vendor4.add("product4");
-        vendor4.add("vendor4");
-        vendor4.add(8000);
+        vendor4.add("OnePlus Nord");
+        vendor4.add("Oneplus");
+        vendor4.add(25000);
 
         List<List<Object>> addVendor = new ArrayList<>();
         addVendor.add(vendor1);
